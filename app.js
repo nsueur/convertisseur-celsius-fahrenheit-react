@@ -29,7 +29,6 @@ function BoilingVerdict ({celsius}) {
 function tryConvert (temperature, convert)
 {
     const value = parseFloat(temperature)
-    console.log(convert(value))
     if(Number.isNaN(value))
     {
         return '';
